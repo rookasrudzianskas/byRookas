@@ -17,8 +17,9 @@ export default function Home() {
           <div className="">
           {/*    taglines   */}
               <div className="">
-                  <span className="">Development | Code | Entrepreneurship</span>
-                  <h1>Your journey to becoming a full-stack technical lead starts today. Learn faster by building real projects.</h1>
+                  <span className="text-gray-100">Development | Code | Entrepreneurship</span>
+                  <h1 className="text-gray-100">Your journey to becoming a full-stack technical lead starts today. Learn faster by building real projects.</h1>
+                  <button className="text-gray-100">Subscribe!</button>
               </div>
           {/*    video  */}
 
