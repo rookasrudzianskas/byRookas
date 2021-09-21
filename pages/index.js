@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
-        <title>Create Next App</title>
+        <title>byRookas</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -19,8 +19,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" />
+          Powered by{' '} byRookas ❤️
         </a>
       </footer>
     </div>
