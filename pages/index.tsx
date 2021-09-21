@@ -13,9 +13,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
+      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center  max-w-screen-xl">
       {/*      her  */}
-          <div className="flex flex-row">
+          <div className="flex flex-row p-10">
           {/*    taglines   */}
               <div className="flex flex-col max-w-md flex-1 justify-center items-center">
                   <span className="text-gray-100">Development | Code | Entrepreneurship</span>
