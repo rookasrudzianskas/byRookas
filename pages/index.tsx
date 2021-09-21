@@ -17,14 +17,14 @@ export default function Home() {
       {/*      her  */}
           <div className="flex flex-row">
           {/*    taglines   */}
-              <div className="flex flex-col">
+              <div className="flex flex-col max-w-md flex-1 justify-center items-center">
                   <span className="text-gray-100">Development | Code | Entrepreneurship</span>
                   <h1 className="text-gray-100">Your journey to becoming a full-stack technical lead starts today. Learn faster by building real projects.</h1>
                   <button className="text-gray-100">Subscribe!</button>
               </div>
 
           {/*    video  */}
-              <div className="flex">
+              <div className="flex flex-1">
                   <Image height={144} width={144} src={'https://images.unsplash.com/photo-1632224120647-e7abd8225fb4?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60'} />
               </div>
 
