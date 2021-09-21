@@ -6,7 +6,7 @@ export default function Home() {
     const router = useRouter();
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-black">
+    <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-gray-900">
       <Head>
         <title>byRookas</title>
         <link rel="icon" href="/favicon.ico" />
