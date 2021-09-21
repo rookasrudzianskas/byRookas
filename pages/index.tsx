@@ -11,7 +11,8 @@ export default function Home() {
       </Head>
 
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <h1 className="text-white text-7xl font-bold">Hello, Let's build the awesome shit 🚀</h1>
+        <h1 className="text-white text-7xl font-bold">Hello, let's build some awesome shit 🚀</h1>
+          <h2 className="text-white text-4xl mt-6">Proudly by the guy, who loves making some damn good shit with react 🔥</h2>
       </main>
 
       <footer className="flex items-center justify-center w-full h-24 border-t border-gray-900">
