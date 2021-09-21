@@ -16,6 +16,10 @@ export default function Home() {
       {/*      her  */}
           <div className="">
           {/*    taglines   */}
+              <div className="">
+                  <span className="">Development | Code | Entrepreneurship</span>
+                  <h1>Your journey to becoming a full-stack technical lead starts today. Learn faster by building real projects.</h1>
+              </div>
           {/*    video  */}
 
           </div>
