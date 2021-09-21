@@ -14,7 +14,7 @@ export default function Home() {
         <h1 className="text-white text-7xl font-bold">Hello, Let's build the awesome shit 🚀</h1>
       </main>
 
-      <footer className="flex items-center justify-center w-full h-24 border-t">
+      <footer className="flex items-center justify-center w-full h-24 border-t border-gray-900">
         <a
           className="flex items-center justify-center text-white"
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
