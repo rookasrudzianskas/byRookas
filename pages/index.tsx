@@ -13,18 +13,20 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center  max-w-screen-xl">
+      <main className="flex flex-col items-center justify-center w-full flex-1 text-center">
       {/*      her  */}
-          <div className="flex flex-row p-10">
+          <div className="flex flex-col md:flex-row">
           {/*    taglines   */}
-              <div className="flex flex-col max-w-md flex-1 justify-center items-center">
-                  <span className="text-gray-100">Development | Code | Entrepreneurship</span>
-                  <h1 className="text-gray-100">Your journey to becoming a full-stack technical lead starts today. Learn faster by building real projects.</h1>
-                  <button className="text-gray-100">Subscribe!</button>
+              <div className="flex flex-col justify-center items-center px-3 md:flex-1">
+                  <span className="text-blue-300 text-md">Development | Code | Entrepreneurship</span>
+                  <h1 className="text-gray-100 text-3xl font-bold  mt-4">Your journey to becoming an awesome developer!</h1>
+                  <div className="bg-yellow-300 px-4 py-2 rounded-md mt-5 hover:bg-yellow-600 transition duration-150 ease-in-out">
+                    <button className="text-gray-900">Subscribe!</button>
+                  </div>
               </div>
 
           {/*    video  */}
-              <div className="flex flex-1 justify-center items-center">
+              <div className="flex items-center justify-center mt-5 md:flex-1">
                   <Image height={144} width={144} src={'https://images.unsplash.com/photo-1632224120647-e7abd8225fb4?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60'} />
               </div>
 
