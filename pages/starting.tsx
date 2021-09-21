@@ -12,10 +12,10 @@ const Starting = () => {
                     <link rel="icon" href="/favicon.ico" />
                 </Head>
 
-                <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-                    <h1 className="text-white text-7xl font-bold">Hello, let's build some awesome shit 🚀</h1>
-                    <h2 className="text-white text-4xl mt-6">Proudly by the guy, who loves making some damn good shit with react 🔥</h2>
-                    <h3 onClick={() => router.push('index')} className="text-blue-600 text-3xl font-bold mt-6">Start my Journey!</h3>
+                <main className="flex flex-col items-center justify-center w-full flex-1 px-3 text-center md:px-20">
+                    <h1 className="text-white text-3xl font-bold md:text-7xl">Hello, let's build some awesome shit 🚀</h1>
+                    <h2 className="text-white text-2xl mt-6 md:text-3xl">Proudly by the guy, who loves making some damn good shit with react 🔥</h2>
+                    <h3 onClick={() => router.push('index')} className="text-blue-600 text-xl font-bold mt-6 md:text-2xl">Start my Journey!</h3>
 
                 </main>
 
