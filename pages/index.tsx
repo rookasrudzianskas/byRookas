@@ -24,7 +24,7 @@ export default function Home() {
               </div>
 
           {/*    video  */}
-              <div className="flex flex-1">
+              <div className="flex flex-1 justify-center items-center">
                   <Image height={144} width={144} src={'https://images.unsplash.com/photo-1632224120647-e7abd8225fb4?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60'} />
               </div>
 
