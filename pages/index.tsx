@@ -15,7 +15,7 @@ export default function Home() {
 
       <main className="flex flex-col items-center justify-center w-full flex-1 text-center max-w-screen-xl">
       {/*      her  */}
-          <div className="flex flex-col md:flex-row">
+          <div className="flex flex-col mt-10 md:flex-row">
           {/*    taglines   */}
               <div className="flex flex-col justify-center items-center px-3 md:flex-1">
                   <span className="text-blue-300 text-md md:text-left">Development | Code | Entrepreneurship</span>
@@ -39,6 +39,37 @@ export default function Home() {
 
               </div>
 
+          </div>
+
+          <div className="px-3 grid grid-rows-3 grid-flow-col gap-x-8 gap-y-2 mt-6 md:grid-rows-2 grid-flow-col place-items-center">
+              <div className="w-12 h-12">
+                  <Image src={"/logos/aws.svg"} width={10} height={10} layout="responsive" />
+              </div>
+
+              <div className="w-12 h-12 md:ml-16">
+                  <Image src={"/logos/amplify.svg"} width={10} height={10} layout="responsive" />
+              </div>
+              <div className="w-12 h-12">
+                  <Image src={"/logos/graphql.svg"} width={10} height={10} layout="responsive" />
+              </div>
+              <div className="w-12 h-12 md:ml-10">
+                  <Image src={"/logos/javascript.svg"} width={10} height={10} layout="responsive" />
+              </div>
+              <div className="w-12 h-12">
+                  <Image src={"/logos/mongodb.svg"} width={10} height={10} layout="responsive" />
+              </div>
+              <div className="w-12 h-12 md:ml-10">
+                  <Image src={"/logos/next-js.svg"} width={10} height={10} layout="responsive" />
+              </div>
+              <div className="w-12 h-12">
+                  <Image src={"/logos/nodejs.svg"} width={10} height={10} layout="responsive" />
+              </div>
+              <div className="w-12 h-12 md:ml-10">
+                  <Image src={"/logos/react.svg"} width={10} height={10} layout="responsive" />
+              </div>
+              <div className="w-12 h-12">
+                  <Image src={"/logos/typescript.svg"} width={10} height={10} layout="responsive" />
+              </div>
           </div>
       </main>
 
