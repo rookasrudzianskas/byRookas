@@ -32,7 +32,7 @@ export default function Home() {
                   <span className="text-blue-300 text-md md:text-left">Development | Code | Entrepreneurship</span>
                   <h1 className="text-gray-100 text-3xl font-bold  mt-4 md:text-left">Rokas Rudzianskas, creative entrepreneur and creative cloud junky.</h1>
 
-                  <p className="text-gray-300 mt-6 md:text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci earum provident quisquam voluptatum. Architecto assumenda laboriosam perferendis sit suscipit voluptas?</p>
+                  <p className="text-gray-300 mt-6 md:text-left">Creative fullstack developer, Brainlyemails & Connexious Founder and CEO. Enthusiastic Growth Hacker, Internet Marketer, and Adobe Creative Cloud Junky</p>
                   <div className="bg-yellow-300 px-4 py-2 rounded-md mt-5 hover:bg-yellow-600 transition duration-150 ease-in-out">
                     <button className="text-gray-900">Subscribe!</button>
                   </div>
