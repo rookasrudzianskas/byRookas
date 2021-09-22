@@ -72,9 +72,6 @@ export default function Home() {
               </div>
           </div>
 
-          <div className="h-full w-96 bg-gray-100">
-            <h1>Coming soon</h1>
-          </div>
       </main>
 
       <footer className="flex items-center justify-center w-full h-24 border-t border-gray-900">
