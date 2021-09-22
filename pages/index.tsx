@@ -64,7 +64,7 @@ export default function Home() {
 
 
           <section className="px-3">
-              <div className="mt-16">
+              <div className="mt-16 flex flex-col">
                 <Blog />
               </div>
           </section>

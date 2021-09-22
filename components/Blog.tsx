@@ -26,7 +26,7 @@ const Blog = () => {
             <p className="text-gray-500 text-center mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci cum eligendi ipsam itaque laudantium magnam magni optio. Amet, quibusdam?</p>
 
     {/*// @ts-ignore*/}
-            <div className="flex flex-col md:">
+            <div className="flex flex-col md:flex-row">
                 <div className="mt-6">
                     {blogPosts.map(post => <BlogCard post={post} />)}
                 </div>
