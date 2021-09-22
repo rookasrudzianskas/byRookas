@@ -64,7 +64,7 @@ export default function Home() {
 
           </div>
 
-          <div className="w-96 h-96">
+          <div className="flex flex-row">
               {techLogos.map((logo) => (
                   <div className="relative w-10 h-10">
                     <Image key={logo} src={logo} layout="fill" objectFit="contain" className=""/>
