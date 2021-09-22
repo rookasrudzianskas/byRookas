@@ -28,8 +28,15 @@ export default function Home() {
               </div>
 
           {/*    video  */}
-              <div className="flex items-center justify-center mt-5 md:flex-1">
-                  <Image height={144} width={144} src={'https://images.unsplash.com/photo-1632224120647-e7abd8225fb4?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60'} />
+              <div className="flex items-center justify-center mt-5 px-10 md:flex-1 px-3">
+                  <div className="bg-red-500 flex-1 z-0">
+                    <Image height={144} width={144} layout="responsive" className="" src={'https://images.unsplash.com/photo-1632224120647-e7abd8225fb4?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60'} />
+
+                      <div className="absolute bottom-28 right-0 w-28 h-28 z-50">
+                          <Image height={144} width={144} layout="responsive" className="" src="/pattern_4.svg" />
+                      </div>
+                  </div>
+
               </div>
 
           </div>
