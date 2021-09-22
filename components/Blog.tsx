@@ -9,7 +9,7 @@ const blogPosts = [
         except: "In this video blog, I am going to show you how to build the Google Maps clone in react native",
         image: 'https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2338&q=80',
     },
-]
+];
 
 const Blog = () => {
     return (
