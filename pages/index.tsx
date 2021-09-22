@@ -18,8 +18,10 @@ export default function Home() {
           <div className="flex flex-col md:flex-row">
           {/*    taglines   */}
               <div className="flex flex-col justify-center items-center px-3 md:flex-1">
-                  <span className="text-blue-300 text-md">Development | Code | Entrepreneurship</span>
-                  <h1 className="text-gray-100 text-3xl font-bold  mt-4">Your journey to becoming an awesome developer!</h1>
+                  <span className="text-blue-300 text-md md:text-left">Development | Code | Entrepreneurship</span>
+                  <h1 className="text-gray-100 text-3xl font-bold  mt-4 md:text-left">Your journey to becoming an awesome developer!</h1>
+
+                  <p className="text-gray-300 mt-6 md:text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci earum provident quisquam voluptatum. Architecto assumenda laboriosam perferendis sit suscipit voluptas?</p>
                   <div className="bg-yellow-300 px-4 py-2 rounded-md mt-5 hover:bg-yellow-600 transition duration-150 ease-in-out">
                     <button className="text-gray-900">Subscribe!</button>
                   </div>
