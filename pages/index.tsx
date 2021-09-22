@@ -41,7 +41,7 @@ export default function Home() {
 
           </div>
 
-          <div className="px-3 grid grid-rows-3 grid-flow-col gap-x-8 gap-y-2 mt-12 md:grid-rows-2 grid-flow-col place-items-center mt-20">
+          <div className="px-3 grid grid-rows-3 grid-flow-col gap-x-8 gap-y-2 mt-12 mb-10 md:grid-rows-2 grid-flow-col place-items-center mt-20">
               <div className="w-12 h-12">
                   <Image src={"/logos/aws.svg"} width={10} height={10} layout="responsive" />
               </div>
@@ -70,6 +70,10 @@ export default function Home() {
               <div className="w-12 h-12">
                   <Image src={"/logos/typescript.svg"} width={10} height={10} layout="responsive" />
               </div>
+          </div>
+
+          <div className="h-full w-96 bg-gray-100">
+            <h1>Coming soon</h1>
           </div>
       </main>
 
