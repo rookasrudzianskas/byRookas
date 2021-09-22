@@ -32,8 +32,8 @@ export default function Home() {
                   <div className="bg-red-500 flex-1 z-0 relative">
                     <Image height={144} width={144} layout="responsive" className="" src={'https://images.unsplash.com/photo-1632224120647-e7abd8225fb4?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60'} />
 
-                      <div className="absolute top-0 right-0 w-10">
-                          <Image height={144} width={144} layout="responsive" className="" src="/pattern_4.svg" />
+                      <div className="absolute top-0 right-0 w-12">
+                          <Image height={2106} width={1204} layout="responsive" className="" src="/pattern_4.svg" />
                       </div>
                   </div>
 
