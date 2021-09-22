@@ -52,10 +52,10 @@ export default function Home() {
 
           </div>
 
-          <div className="px-3 grid grid-rows-3 grid-flow-col gap-x-8 gap-y-2 mt-12 mb-10 md:grid-rows-2 grid-flow-col place-items-center mt-20">
+          <div className="bg-yellow-500 w-96 h-96">
               {techLogos.map((logo) => (
-                  <Image  src={logo} height={2160} width={1204} layout="responsive" className=""/>
-                  )}
+                  <Image key={logo} src={logo} height={2160} width={1204} layout="responsive" className=""/>
+                  ))}
           </div>
 
       </main>
