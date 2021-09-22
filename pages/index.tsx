@@ -49,7 +49,7 @@ export default function Home() {
           {/*        </div>*/}
 
           {/*    </div>*/}
-              <div className="flex-1 relative justify-center items-center pr-9 mb-10 w-full">
+              <div className="flex-1 relative justify-center items-center pr-9 mb-10 w-full px-5 mt-6">
                   <Image
                       src={'https://images.unsplash.com/photo-1632224120647-e7abd8225fb4?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60'}
                       height={144}
