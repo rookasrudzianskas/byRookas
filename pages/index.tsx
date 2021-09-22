@@ -5,6 +5,17 @@ import Image from "next/image";
 export default function Home() {
 
     const router = useRouter();
+    const techLogos = [
+        '/logos/amplify.svg',
+        '/logos/aws.svg',
+        '/logos/graphql.svg',
+        '/logos/javascript.svg',
+        '/logos/mongodb.svg',
+        '/logos/next-js.svg',
+        '/logos/nodejs.svg',
+        '/logos/react.svg',
+        '/logos/typescript.svg',
+    ];
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-gray-900">
