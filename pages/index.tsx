@@ -39,22 +39,34 @@ export default function Home() {
               </div>
 
           {/*    video  */}
-              <div className="flex items-center justify-center mt-5 px-10 mr-6 md:flex-1 px-3">
-                  <div className="bg-red-500 flex-1 z-0 relative">
-                    <Image height={144} width={144} layout="responsive" className="" src={'https://images.unsplash.com/photo-1632224120647-e7abd8225fb4?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60'} />
+          {/*    <div className="flex items-center justify-center mt-5 px-10 mr-6 md:flex-1 px-3">*/}
+          {/*        <div className="bg-red-500 flex-1 z-0 relative">*/}
+          {/*          <Image height={144} width={144} layout="responsive" className="" src={'https://images.unsplash.com/photo-1632224120647-e7abd8225fb4?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60'} />*/}
 
-                      <div className="absolute top-0 right-0 w-14 transform translate-x-9 translate-y-1 md:absolute right-0 top-64 transform translate-x-9 translate-y-64 lg:absolute right-0 transform translate-y-60">
-                          <Image height={2106} width={1204} layout="responsive" className="rounded-md" src="/pattern_4.svg" />
-                      </div>
+          {/*            <div className="absolute top-0 right-0 w-14 transform translate-x-9 translate-y-1 md:absolute right-0 top-64 transform translate-x-9 translate-y-64 lg:absolute right-0 transform translate-y-60">*/}
+          {/*                <Image height={2106} width={1204} layout="responsive" className="rounded-md" src="/pattern_4.svg" />*/}
+          {/*            </div>*/}
+          {/*        </div>*/}
+
+          {/*    </div>*/}
+              <div className="flex-1 relative justify-center items-center pr-9 mb-10 w-full">
+                  <Image
+                      src={'https://images.unsplash.com/photo-1632224120647-e7abd8225fb4?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60'}
+                      height={144}
+                      width={144}
+                      alt="profile image"
+                      layout="responsive"
+                  />
+                  <div className="absolute bottom-0 right-0 w-14 transform translate-y-9 md:w-24 md:translate-y-16 md:translate-x-6">
+                      <Image src="/pattern_4.svg"    height={144} width={144} alt="brand element" layout="responsive" />
                   </div>
-
               </div>
 
           </div>
 
-          <div className="bg-yellow-500 w-96 h-96">
+          <div className="w-96 h-96">
               {techLogos.map((logo) => (
-                  <Image key={logo} src={logo} height={2160} width={1204} layout="responsive" className=""/>
+                  <Image key={logo} src={logo} layout="fill" className=""/>
                   ))}
           </div>
 
