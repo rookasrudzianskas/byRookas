@@ -1,5 +1,6 @@
 import React from 'react';
 import BlogCard from "./BlogCard";
+import Button from "./Button";
 
 
 const blogPosts = [
@@ -21,17 +22,21 @@ const blogPosts = [
 
 const Blog = () => {
     return (
-        <div className="">
-            <h1 className="text-3xl text-white font-bold">Blog</h1>
-            <p className="text-gray-500 text-center mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci cum eligendi ipsam itaque laudantium magnam magni optio. Amet, quibusdam?</p>
+        <section className="flex flex-col items-center">
+            <h1 className="text-white text-3xl font-bold mb-2">Blog</h1>
+            <p className="text-gray-500 text-center">
+                Check out our blog for the latest tips, tricks, and best practices on
+                Javascript, React/React Native, AWS and Startups.
+            </p>
 
-    {/*// @ts-ignore*/}
-            <div className="flex flex-col md:flex-row">
-                <div className="mt-6">
-                    {blogPosts.map(post => <BlogCard post={post} />)}
-                </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5 my-10">
+                {blogPosts.map((post) => (
+                    <BlogCard post={post} key={post.slug} />
+                ))}
             </div>
-        </div>
+
+            <Button text="See all posts" href="/blog" type="secondary" />
+        </section>
     );
 };
 
