@@ -1,6 +1,17 @@
 import React from 'react';
 
-const BlogCard = () => {
+interface BlogCardProps {
+    post: {
+        id: string,
+        slug: string,
+        title: string,
+        except: string,
+        image: string,
+    }
+
+}
+
+const BlogCard = ({post}: BlogCardProps) => {
     return (
         <div className="">
 
