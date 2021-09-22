@@ -53,35 +53,9 @@ export default function Home() {
           </div>
 
           <div className="px-3 grid grid-rows-3 grid-flow-col gap-x-8 gap-y-2 mt-12 mb-10 md:grid-rows-2 grid-flow-col place-items-center mt-20">
-              {/* tech stack */}
-              <div className="w-12 h-12">
-                  <Image src={"/logos/aws.svg"} width={10} height={10} layout="responsive" />
-              </div>
-
-              <div className="w-12 h-12 md:ml-16">
-                  <Image src={"/logos/amplify.svg"} width={10} height={10} layout="responsive" />
-              </div>
-              <div className="w-12 h-12">
-                  <Image src={"/logos/graphql.svg"} width={10} height={10} layout="responsive" />
-              </div>
-              <div className="w-12 h-12 md:ml-10">
-                  <Image src={"/logos/javascript.svg"} width={10} height={10} layout="responsive" />
-              </div>
-              <div className="w-12 h-12">
-                  <Image src={"/logos/mongodb.svg"} width={10} height={10} layout="responsive" />
-              </div>
-              <div className="w-12 h-12 md:ml-10">
-                  <Image src={"/logos/next-js.svg"} width={10} height={10} layout="responsive" />
-              </div>
-              <div className="w-12 h-12">
-                  <Image src={"/logos/nodejs.svg"} width={10} height={10} layout="responsive" />
-              </div>
-              <div className="w-12 h-12 md:ml-10">
-                  <Image src={"/logos/react.svg"} width={10} height={10} layout="responsive" />
-              </div>
-              <div className="w-12 h-12">
-                  <Image src={"/logos/typescript.svg"} width={10} height={10} layout="responsive" />
-              </div>
+              {techLogos.map((logo) => (
+                  <Image  src={logo} height={2160} width={1204} layout="responsive" className=""/>
+                  )}
           </div>
 
       </main>
