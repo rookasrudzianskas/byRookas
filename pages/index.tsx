@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import {useRouter} from "next/router";
 import Image from "next/image";
+import Blog from "../components/Blog";
 
 export default function Home() {
 
@@ -63,8 +64,8 @@ export default function Home() {
 
 
           <section>
-              <div className="">
-
+              <div className="mt-16">
+                <Blog />
               </div>
           </section>
 
