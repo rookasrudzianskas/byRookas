@@ -22,7 +22,7 @@ export default function Button({text, href, type = 'primary'}: ButtonProps) {
 
     return (
         <Link href={href}>
-            <a className={`${aClassNames} block py-2 px-7 rounded bg-yellow-500`}>
+            <a className={`${aClassNames} block py-2 px-7 rounded bg-yellow-300`}>
                 {text}
             </a>
         </Link>
