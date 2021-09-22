@@ -63,7 +63,7 @@ export default function Home() {
           </div>
 
 
-          <section>
+          <section className="px-3">
               <div className="mt-16">
                 <Blog />
               </div>
