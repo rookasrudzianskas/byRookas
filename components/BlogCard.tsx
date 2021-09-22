@@ -20,7 +20,7 @@ const BlogCard = ({post}: BlogCardProps) => {
             <Image  src={post.image} layout="fill" objectFit="cover" />
         </div>
             <h1 className="text-white text-2xl font-bold my-3">{post?.title}</h1>
-            <p className="text-white text-center mb-2 text-sm text-light">{post?.except}</p>
+            <p className="text-gray-400 text-center mb-2 text-sm text-light">{post?.except}</p>
             <Button text="read-more" href={`/post/${post?.slug}`} type={"tertiary"} />
         </div>
     );
