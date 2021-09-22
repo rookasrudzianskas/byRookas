@@ -7,7 +7,7 @@ interface BlogCardProps {
         id: string,
         slug: string,
         title: string,
-        excerpt: string,
+        except: string,
         image: string,
     }
 
@@ -15,10 +15,10 @@ interface BlogCardProps {
 
 const BlogCard = ({post}: BlogCardProps) => {
     return (
-        <div className="">
+        <div className="relative">
             <Image  src={post.image} layout="fill" objectFit="cover" />
             <h1>{post?.title}</h1>
-            <p>{post?.excerpt}</p>
+            <p>{post?.except}</p>
             <Button text="read-more" href={`/post/${post?.slug}`} type={"tertiary"} />
         </div>
     );
