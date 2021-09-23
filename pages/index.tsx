@@ -62,6 +62,10 @@ export default function Home() {
                   ))}
           </div>
 
+          <div className="mt-10">
+              <p className="text-gray-100 text-3xl font-bold">Join me on the journey! <a className="text-blue-500" href="https://nextjs.org/conf/tickets/oct21/rookasrudzianskas?s=1">Here ❤️</a></p>
+          </div>
+
 
           <section className="px-3">
               <div className="mt-16 flex flex-col">
